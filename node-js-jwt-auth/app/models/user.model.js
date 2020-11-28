@@ -1,5 +1,5 @@
-const { Sequelize } = require("sequelize");
-const sequelize = require("sequelize");
+// const { Sequelize } = require("sequelize");
+// const sequelize = require("sequelize");
 
 module.exports=(sequelize,Sequelize)=>{
     const User = sequelize.define("users",{
